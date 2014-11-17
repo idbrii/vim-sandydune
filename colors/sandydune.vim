@@ -129,10 +129,18 @@ hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
 hi Folded	ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
-hi DiffAdd	ctermbg=4
-hi DiffChange	ctermbg=5
-hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
-hi DiffText	cterm=bold ctermbg=1
+
+" Diff colours from jellybeans
+" Source: https://github.com/nanotech/jellybeans.vim
+hi DiffAdd gui=none cterm=none
+hi DiffAdd guifg=#D2EBBE guibg=#437019 ctermfg=193 ctermbg=22
+hi DiffChange gui=none cterm=none
+hi DiffChange guifg=NONE guibg=#2B5B77 ctermfg=NONE ctermbg=24
+hi DiffDelete gui=none cterm=none
+hi DiffDelete guifg=#40000A guibg=#700009 ctermfg=16 ctermbg=52
+hi DiffText gui=reverse cterm=reverse
+hi DiffText guifg=#8fbfdc guibg=#000000 ctermfg=110 ctermbg=16
+
 hi Comment	ctermfg=darkcyan
 hi Constant	ctermfg=brown
 hi Special	ctermfg=5
