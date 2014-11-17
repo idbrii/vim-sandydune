@@ -142,6 +142,12 @@ hi DiffText guibg=#000000 ctermfg=110 ctermbg=16
 hi DiffText gui=reverse cterm=reverse
 hi DiffText guifg=#8fbfdc guibg=#000000 ctermfg=110 ctermbg=16
 
+" jellybeans-inspired colours for patch-format diffs
+hi diffAdded gui=none cterm=none
+hi diffAdded guifg=#d2ebbe guibg=#437019 ctermfg=193 ctermbg=22
+hi diffRemoved gui=none cterm=none
+hi diffRemoved guifg=#b05059 guibg=#40000a ctermfg=16 ctermbg=52
+
 hi Comment	ctermfg=darkcyan
 hi Constant	ctermfg=brown
 hi Special	ctermfg=5
