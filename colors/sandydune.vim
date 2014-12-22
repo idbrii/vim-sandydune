@@ -1,13 +1,13 @@
 " Vim color file
 " Maintainer:	David Briscoe <idbrii@gmail.com>
-" Last Change:	08 Jul 2012
+" Last Change:	22 Dec 2014
 " Origin:   Based on desert.vim
-" Version:	0.2
+" Version:	0.3
 
-" cool help screens
-" :he group-name
-" :he highlight-groups
-" :he cterm-colors
+" Relevant help screens
+" :h group-name
+" :h highlight-groups
+" :h cterm-colors
 
 set background=dark
 if version > 580
@@ -22,14 +22,12 @@ let g:colors_name="sandydune"
 
 hi Normal	guifg=White guibg=grey20
 
+
 " highlight groups {{{
+
 hi Cursor	guibg=khaki guifg=slategrey
 "hi CursorIM
 "hi Directory
-"hi DiffAdd
-"hi DiffChange
-"hi DiffDelete
-"hi DiffText
 "hi ErrorMsg
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=grey30 guifg=gold
@@ -45,12 +43,13 @@ hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Title	guifg=indianred
-"hi Visual	gui=none guifg=khaki guibg=olivedrab
 hi Visual	gui=none guifg=lightgrey guibg=black
 "hi VisualNOS
 hi WarningMsg	guifg=salmon
 "hi WildMenu
 "hi Menu
+hi Pmenu 		guifg=#f6f3e8 guibg=#444444
+hi PmenuSel 	guifg=#000000 guibg=SkyBlue
 "hi Scrollbar
 "hi Tooltip
 "}}}
