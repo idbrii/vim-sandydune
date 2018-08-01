@@ -46,7 +46,7 @@ hi Title	guifg=indianred
 hi Visual	gui=none guifg=lightgrey guibg=black
 "hi VisualNOS
 hi WarningMsg	guifg=salmon
-"hi WildMenu
+hi WildMenu 	guifg=Black guibg=SkyBlue
 "hi Menu
 hi Pmenu 		guifg=#f6f3e8 guibg=#444444
 hi PmenuSel 	guifg=#000000 guibg=SkyBlue
