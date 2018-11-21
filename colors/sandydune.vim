@@ -69,12 +69,12 @@ hi Identifier	guifg=palegreen
 hi Function	    guifg=#90e090   " Used for cpp custom function definition
 
 "hi Statement	guifg=khaki     " break, return, and all below
-hi Statement	guifg=palegoldenrod     " break, return, and all below
+hi Statement	guifg=palegoldenrod gui=NONE	" break, return, and all below
 hi Conditional	guifg=yellow	"if, then, else, endif, switch, etc.
 hi Repeat		guifg=orange	"for, do, while, etc.
 hi Label		guifg=gold		"case, default, etc.
 hi Operator     guifg=goldenrod	""sizeof", "+", "*", etc.
-"hi Keyword	    guifg=#000000	"any other keyword (never used?)
+hi Keyword	guifg=palegoldenrod gui=bold	"any other keyword (never used?)
 hi Exception	guifg=orangered	"try, catch, throw
 
 hi PreProc	    guifg=tan
