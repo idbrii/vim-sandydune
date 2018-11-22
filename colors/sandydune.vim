@@ -87,7 +87,7 @@ hi Include	guibg=grey21 guifg=chocolate
 "hi Include	guifg=beige
 
 hi Type	guifg=darkkhaki
-"StorageClass	guifg=#000000		"static, register, volatile, etc.
+hi StorageClass	guifg=darkkhaki gui=NONE		"static, register, volatile, etc.
 "Structure	guifg=#000000		"struct, union, enum, etc.
 "darkkhaki=#bdb76b
 hi Typedef	guifg=#cdc79b
