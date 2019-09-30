@@ -28,12 +28,13 @@ hi Normal	guifg=White guibg=grey20
 hi Cursor	guibg=khaki guifg=slategrey
 "hi CursorIM
 "hi Directory
-"hi ErrorMsg
+hi ErrorMsg	guibg=#cc3333 guifg=grey90
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=grey30 guifg=gold
 hi FoldColumn	guibg=grey30 guifg=tan
+hi ColorColumn	guibg=grey23 guifg=tan
 hi IncSearch	guifg=slategrey guibg=khaki
-"hi LineNr
+hi LineNr	guifg=slategrey guibg=grey10
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
@@ -47,6 +48,7 @@ hi Visual	gui=none guifg=lightgrey guibg=black
 "hi VisualNOS
 hi WarningMsg	guifg=salmon
 hi WildMenu	guifg=Black guibg=SkyBlue
+hi QuickFixLine	guifg=SkyBlue guibg=Black
 "hi Menu
 hi Pmenu	guifg=#f6f3e8 guibg=#444444
 hi PmenuSel	guifg=#000000 guibg=SkyBlue
