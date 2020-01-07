@@ -39,7 +39,8 @@ hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
 hi Question	guifg=springgreen
 hi Search	guibg=brown guifg=wheat
-hi IncSearch	guibg=brown guifg=wheat gui=reverse
+" brown is #964B00. wheat is #f5deb3. use a darker reversed version of Search.
+hi IncSearch	guibg=#6d2200 guifg=#ccb58a gui=reverse
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
