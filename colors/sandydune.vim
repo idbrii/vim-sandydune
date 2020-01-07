@@ -33,13 +33,13 @@ hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=grey30 guifg=gold
 hi FoldColumn	guibg=grey30 guifg=tan
 hi ColorColumn	guibg=grey23 guifg=tan
-hi IncSearch	guifg=slategrey guibg=khaki
 hi LineNr	guifg=slategrey guibg=grey10
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
 hi Question	guifg=springgreen
 hi Search	guibg=brown guifg=wheat
+hi IncSearch	guibg=brown guifg=wheat gui=reverse
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
