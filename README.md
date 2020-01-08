@@ -10,6 +10,7 @@ Sandydune is a fork of desert that offers:
 
 * gentle differentiation between different types (float vs int vs string)
 * control statement colouring influenced by [codekana](http://www.codekana.com/)
+* diff and patch colours inspired by [jellybeans](https://github.com/nanotech/jellybeans.vim)
 * some ugly red/brown colours replaced with blues
 
 See also an always up-to-date [preview on vimcolors](http://vimcolors.com/209/sandydune/dark).
