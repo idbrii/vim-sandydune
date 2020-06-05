@@ -26,6 +26,11 @@ hi Normal	guifg=White guibg=grey20
 " highlight groups {{{
 
 hi Cursor	guibg=khaki guifg=slategrey
+" Conceal represents hidden characters, so make fg and bg close to Normal's bg.
+" This requires syntax to link Conceal to another group when they're setting a
+" conceal character that should be fully visible:
+"   hi! link Conceal Operator
+hi Conceal	guifg=grey35 guibg=grey20
 "hi CursorIM
 "hi Directory
 hi ErrorMsg	guibg=#cc3333 guifg=grey90
