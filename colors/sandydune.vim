@@ -72,7 +72,7 @@ hi String	guifg=#ffa0c0		"a string constant: "this is a string"
 "Boolean	guifg=#000000		"a boolean constant: TRUE, false
 hi Float	guifg=#ffc0b0		"a floating point constant: 2.3e10
 
-hi Identifier	guifg=palegreen
+hi Identifier	guifg=#98fb98
 "hi Identifier	guifg=#d0ffe0		" Used for cpp custom member/static function
 hi Function	guifg=#90e090		" Used for cpp custom function definition
 
