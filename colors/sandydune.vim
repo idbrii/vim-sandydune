@@ -73,7 +73,8 @@ hi String	guifg=#ffa0c0		"a string constant: "this is a string"
 hi Float	guifg=#ffc0b0		"a floating point constant: 2.3e10
 
 hi Identifier	guifg=#d0ffe0		" Used for cpp custom member/static function
-hi Function	guifg=#90e090		" Used for cpp custom function definition
+" Keeping Function more intense to better differentiate from Identifier.
+hi Function	guifg=#88f098		" Used for cpp custom function definition
 
 "hi Statement	guifg=khaki		" break, return, and all below
 hi Statement	guifg=palegoldenrod gui=NONE		" break, return, and all below
