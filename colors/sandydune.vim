@@ -21,6 +21,8 @@ endif
 let g:colors_name="sandydune"
 
 hi Normal	guifg=White guibg=grey20
+" Make Terminal mode clearly different from Terminal-Normal
+hi Terminal	guifg=White guibg=grey17
 
 
 " highlight groups {{{
