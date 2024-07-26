@@ -48,6 +48,7 @@ hi Question	guifg=springgreen
 hi Search	guifg=SkyBlue guibg=grey10
 " SkyBlue is #87CEEB. Use a darker reversed version of Search.
 hi IncSearch	guifg=#67aecb guibg=grey10 gui=reverse
+hi CurSearch	guifg=#67aecb guibg=grey10 gui=reverse
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
