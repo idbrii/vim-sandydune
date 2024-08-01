@@ -13,6 +13,6 @@ Sandydune is a fork of desert that offers:
 * diff and patch colours inspired by [jellybeans](https://github.com/nanotech/jellybeans.vim)
 * some ugly red/brown colours replaced with blues
 
-See also an always up-to-date [preview on vimcolors](http://vimcolors.com/209/sandydune/dark).
-In reality, you'll see more differentiation between numerical literals that aren't visible due to limitations in vimcolors.
+See also an always up-to-date [preview on vimcolorschemes](https://vimcolorschemes.com/idbrii/vim-sandydune).
+In reality, you'll see more differentiation between numerical literals that aren't visible due to limitations in vimcolorschemes.
 
