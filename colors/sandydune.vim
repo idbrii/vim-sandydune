@@ -1,8 +1,7 @@
 " Vim color file
 " Maintainer:	David Briscoe <idbrii@gmail.com>
-" Last Change:	2020-01-08
 " Origin:   Based on desert.vim
-" Version:	0.5
+" Version:	0.6
 
 " Relevant help screens
 " :h group-name
